@@ -6,8 +6,9 @@ header{
     align-items: center;
     margin-bottom: 35px;
 }
- 
+
+element-style{
 padding: 0px 30px;
 border: solid white;
 border-width: 0 1px;
-}asdf
+}
