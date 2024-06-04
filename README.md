@@ -1,2 +1,2 @@
-# eCO
+# Ecoglobe
 prototipo do ecoglobe
