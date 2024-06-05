@@ -21,7 +21,7 @@ header{
     display: none;
 }
 
-element-style{
+element.style{
 padding: 0px 30px;
 border: solid rgb(255, 255, 255);
 border-width: 0 1px;
