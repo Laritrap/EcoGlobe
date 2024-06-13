@@ -53,36 +53,8 @@ h2 {
 
 .ht {
     background-image: url(./img/horta.png);
-    background-size: 100%;
-    height: 63vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
 }
-
-.rv {
-    background-image: url(./img/agua.png);
-    background-size: 100%;
-    height: 63vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-}
-
-.tn {
-    background-image: url(./img/trilha.png);
-    background-size: 100%;
-    height: 63vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-}
-
-.ds {
-    background-image: url(./img/dicas.png);
+.atv{
     background-size: 100%;
     height: 63vw;
     display: flex;
