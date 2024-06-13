@@ -1,11 +1,12 @@
-html{
+html {
     background-color: #222831;
 }
 
-.title{
+.title {
     color: #03CFAA;
 }
-header{
+
+header {
     background-color: #1A1D22;
     color: #fff;
     display: flex;
@@ -16,38 +17,30 @@ header{
     border: solid rgb(255, 255, 255);
     border-width: 0 1px;
     width: 100%;
+}
 
-.logo{
+.logo {
     width: 25%;
 }
-.sair{
+.sair {
     display: none;
 }
 
-h2{
+h2 {
     text-align: center;
     color: #03CFAA;
 }
 
-.imgns{
+.imgns {
     width: 100%;
 }
 
-.imgat{
+.imgat {
     width: 100%;
 }
 
-.missao{
+.missao {
     text-align: center;
     color: #fff;
 }
-
-.horta{
-    width: 100%;
-}
-
-.ht{
-
-}
-
 
