@@ -16,8 +16,6 @@ header{
     border: solid rgb(255, 255, 255);
     border-width: 0 1px;
     width: 100%;
-        
-}
 
 .logo{
     width: 25%;
@@ -35,7 +33,11 @@ h2{
     width: 100%;
 }
 
-.misao{
+.imgat{
+    width: 100%;
+}
+
+.missao{
     text-align: center;
     color: #fff;
 }
@@ -45,7 +47,7 @@ h2{
 }
 
 .ht{
-    
+
 }
 
 
