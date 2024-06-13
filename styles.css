@@ -16,6 +16,7 @@ header {
     margin: 0 0 15px;
     padding: 0px 0px;
     width: 100%;
+    position: relative;
 }
 
 .logo {
@@ -79,13 +80,22 @@ h2 {
 
 .links {
     display: none;
+    position: absolute;
+    top: 100%;
 }
 
 .menuzin:checked ~ .links{
     display: block;
 }
 
+ul li{
+    list-style: none;
+}
 
+li a {
+    color: #fff;
+    text-decoration: none;
+}
 @media screen and (min-width: 1024px) {
     .imgat {
         width: 50%;
