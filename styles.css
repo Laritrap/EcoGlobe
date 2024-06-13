@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 0 15px ;
+    margin: 0 0 15px;
     padding: 0px 0px;
     width: 100%;
 }
@@ -54,7 +54,20 @@ h2 {
 .ht {
     background-image: url(./img/horta.png);
 }
-.atv{
+
+.rv {
+    background-image: url(./img/agua.png);
+}
+
+.tn {
+    background-image: url(./img/trilha.png);
+}
+
+.ds {
+    background-image: url(./img/dicas.png);
+}
+
+.atv {
     background-size: 100%;
     height: 63vw;
     display: flex;
@@ -63,13 +76,13 @@ h2 {
     margin: 10px;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
     .imgat {
         width: 50%;
         opacity: 80%;
     }
+
     .imgns {
         width: 100%;
     }
 }
-
