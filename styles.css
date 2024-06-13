@@ -22,9 +22,6 @@ header {
     width: 25%;
 }
 
-.links {
-    display: none;
-}
 
 h2 {
     text-align: center;
@@ -75,6 +72,19 @@ h2 {
     justify-content: center;
     margin: 10px;
 }
+
+#menu {
+    display: none;
+}
+
+.links {
+    display: none;
+}
+
+.menuzin:checked ~ .links{
+    display: block;
+}
+
 
 @media screen and (min-width: 1024px) {
     .imgat {
