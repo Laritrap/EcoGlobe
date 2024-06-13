@@ -53,12 +53,19 @@ h2 {
     background-image: url(./img/horta.png);
     background-size: 100%;
     height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 @media screen and (min-width: 1024px){
     .imgat {
         width: 50%;
+        opacity: 80%;
+    }
+    .imgns {
+        width: 100%;
     }
 }
 
