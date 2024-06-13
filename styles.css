@@ -51,6 +51,11 @@ h2 {
     text-align: center;
     bottom: 100px;
 }
+.ht {
+    background-image: url(./img/horta.png);
+    background-size: 100%;
+    height: 50vw;
+}
 
 
 @media screen and (min-width: 1024px){
