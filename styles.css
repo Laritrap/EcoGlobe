@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 10px 15px;
+    margin: 0 0 15px ;
     padding: 0px 0px;
     width: 100%;
 }
@@ -21,6 +21,7 @@ header {
 .logo {
     width: 25%;
 }
+
 .links {
     display: none;
 }
@@ -37,6 +38,7 @@ h2 {
 
 .imgns {
     width: 100%;
+    margin: 0 10px;
 }
 
 .imgat {
