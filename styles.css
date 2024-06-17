@@ -80,7 +80,7 @@ h2 {
     width: 100px;
     height: 100px;
     border-width: none;
-    border-image-width: 0px;
+    border-color: #1A1D22;
 }
 
 .links {
