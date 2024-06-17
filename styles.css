@@ -77,7 +77,6 @@ h2 {
 #menu {
     display: flex;
     background-image: url(./img/menu.png);
-    width: 100px;
     border-width: none;
 }
 
