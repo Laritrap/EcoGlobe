@@ -126,6 +126,8 @@ li a {
    border-radius: 37px;
    background-color: #D9D9D9;
    display: flex;
+   align-items: center;
+   justify-content: center;
 }
 #text{
     width: 80%;
