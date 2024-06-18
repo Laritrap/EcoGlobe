@@ -123,5 +123,6 @@ li a {
 .quad{
    width: 714px;
    height: 566px;
-   border-radius: 37px; 
+   border-radius: 37px;
+   background-color: #D9D9D9;
 }
