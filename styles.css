@@ -8,22 +8,37 @@ body {
 }
 
 header {
-    background-color: #1A1D22;
-    color: #fff;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0 0 15px;
-    padding: 0px 0px;
-    width: 100%;
-    position: relative;
-    grid-template-columns: 75% 25%;
+  background-color: #1A1D22;
+  color: #fff;
+  display: grid;
+  align-items: center;
+  margin: 0 0 15px;
+  padding: 0px 0px;
+  width: 100%;
+  position: relative;
+  grid-template-columns: 80% 20%;
+  justify-items: center;
+}
+
+.site {
+  display: flex;
+  align-items: center;
+}
+
+.menuzin:checked + label + .links {
+  display: block;
+  position: absolute;
+  top: 70%;
+  right: 0;
+  background-color: #1A1D22;
+  border-radius: 0 0 10px 10px;
+  z-index: 1;
+  padding: 10px;
 }
 
 .logo {
     width: 25%;
 }
-
 
 h2 {
     text-align: center;
@@ -109,12 +124,6 @@ li a {
 
 h5 {
   font-size: 16px;
-}
-
-.borda {
-  border-width: 0 1px;
-  border: solid rgb(234, 186, 186);
-    
 }
 
 .botao {
