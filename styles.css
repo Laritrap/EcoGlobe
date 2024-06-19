@@ -177,4 +177,11 @@ h5{
     height: 0;
     width: 0;
   }
-
+  
+  .menuzin:checked ~ ul {
+    display: block;
+  }
+  
+  ul {
+    display: none;
+  }
