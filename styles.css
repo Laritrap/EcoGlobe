@@ -74,10 +74,13 @@ h2 {
     justify-content: center;
     margin: 10px;
 }
+label{
+    background-image: url(./img/menu.png);
 
+}
 #menu {
     display: flex;
-    background-image: url(./img/menu.png);
+    
     width: 47px;
     height: 28px;
     border-width: none;
