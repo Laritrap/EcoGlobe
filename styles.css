@@ -163,7 +163,6 @@ h5 {
   cursor: pointer;
 }
   
-  /* Hide the checkbox and show the menu icon on smaller screens  nao*/
 @media (max-width: 768px) {
   .links {
     display: none;
@@ -228,7 +227,7 @@ button {
 }
 
 button:hover {
-  background-color: #ff0000;
+  background-color: #6928ff;
 }
 
 label {
