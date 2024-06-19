@@ -82,15 +82,7 @@ h2 {
 }
 
 
-.links {
-    display: none;
-    position: absolute;
-    top: 100%;
-}
 
-.menuzin:checked ~ .links{
-    display: block;
-}
 
 ul li{
     list-style: none;
@@ -99,16 +91,6 @@ ul li{
 li a {
     color: #fff;
     text-decoration: none;
-}
-@media screen and (min-width: 1024px) {
-    .imgat {
-        width: 50%;
-        opacity: 80%;
-    }
-
-    .imgns {
-        width: 100%;
-    }
 }
 
 .quad {
@@ -135,13 +117,54 @@ h5{
     border: solid rgb(234, 186, 186);
     
 }
+
+
+
+__________
+
 .botao {
-    text-align: center;
-}
-
-
-#check {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menuzin {
     display: none;
-}
-
+  }
+  
+  .menuzin:checked ~ .links {
+    display: block;
+  }
+  
+  .links {
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .links li {
+    margin-bottom: 10px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  #check {
+    cursor: pointer;
+  }
+  
+  /* Hide the checkbox and show the menu icon on smaller screens  nao*/
+  @media (max-width: 768px) {
+    .links {
+      display: none;
+    }
+    .menuzin:checked ~ .links {
+      display: block;
+    }
+    #check {
+      display: block;
+    }
+  }
 
