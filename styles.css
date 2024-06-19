@@ -83,14 +83,7 @@ h2 {
     border-width: none;
     border-color: #1A1D22;
 }
-option{
-    display: grid;
-    background-color: #000000;
-    color: #fff;
-    border-width: none;
-    border-color: #1A1D22;
 
-}
 
 .links {
     display: none;
