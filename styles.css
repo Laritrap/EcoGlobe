@@ -82,13 +82,22 @@ h2 {
 }
 
 .atv {
-    background-size: 100%;
-    height: 63vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
+  background-size: 100%;
+  height: 63vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
+
+.atv:hover {
+  font-size: 1.4em;
+  text-decoration: underline;
+  color: white;
+  border: solid 1px;
+  border-radius: 20px;
+}
+
 #menu {
     display: flex;
     width: 47px;
