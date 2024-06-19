@@ -80,12 +80,11 @@ h2 {
     height: 28px;
     border-color: #1A1D22;
 }
-.menuzin{
+
+.botao {
+    text-align: center;
     background-image: url(./img/menu.png);
-
-
 }
-
 
 .links {
     display: none;
