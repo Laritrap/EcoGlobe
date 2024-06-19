@@ -139,3 +139,13 @@ h5{
     text-align: center;
     background-image: url(./img/menu.png);
 }
+
+a{
+display: none;
+
+}
+#check {
+    display: none;
+}
+
+
