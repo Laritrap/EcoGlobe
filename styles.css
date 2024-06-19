@@ -74,17 +74,16 @@ h2 {
     justify-content: center;
     margin: 10px;
 }
-input{
-    background-image: url(./img/menu.png);
-
-}
 #menu {
     display: flex;
-    
     width: 47px;
     height: 28px;
-    border-width: none;
     border-color: #1A1D22;
+}
+.menuzin{
+    background-image: url(./img/menu.png);
+
+
 }
 
 
@@ -134,4 +133,10 @@ li a {
 }
 h5{
     font-size: 16px;
+}
+
+.borda{
+    border-width: 0 1px;
+    border: solid rgb(234, 186, 186);
+    
 }
