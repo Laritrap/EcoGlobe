@@ -17,6 +17,7 @@ header {
     padding: 0px 0px;
     width: 100%;
     position: relative;
+    grid-template-columns: 75% 25%;
 }
 
 .logo {
