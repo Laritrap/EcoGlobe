@@ -46,9 +46,24 @@ h2 {
 }
 
 .missao {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
 }
+
+.missao p {
+  width: 80%;
+  margin: 10px auto 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.texto-missao {
+  display: flex;
+  flex-direction: column;
+}
+
 
 .imgns {
     width: 95%;
