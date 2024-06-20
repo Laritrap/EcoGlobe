@@ -51,6 +51,7 @@ h2 {
   display: flex;
   flex-direction: column;
 }
+/* flex-direction: row*/
 
 .missao p {
   width: 80%;
@@ -80,6 +81,14 @@ h2 {
     text-align: center;
 }
 
+/*
+.atividades {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+*/
+
 .ht {
     background-image: url(./img/horta.png);
 }
@@ -97,13 +106,17 @@ h2 {
 }
 
 .atv {
-  background-size: 100%;
+  background-position: center;
+  background-size: cover;
   height: 63vw;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 10px;
+  border-radius: 20px;
 }
+/* height: 23vw;
+width: 40vw; */
 
 .atv:hover {
   font-size: 1.4em;
