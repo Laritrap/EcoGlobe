@@ -108,19 +108,6 @@ h2 {
   border-radius: 20px;
 }
 
-@media (max-width: 1440px) {
-  .atv {
-    height: 23vw;
-    width: 40vw;
-  }
-
-  .atividades {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
 .atv:hover {
   font-size: 1.4em;
   text-decoration: underline;
@@ -272,4 +259,25 @@ button:hover {
 
 label {
   font-family: Arial;
+}
+
+@media (max-width: 1440px) {
+  .atv {
+    height: 23vw;
+    width: 40vw;
+  }
+
+  .atividades {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .formulario {
+    width: 70%;
+  }
+
+  .missao {
+    flex-direction: row
+  }
 }
