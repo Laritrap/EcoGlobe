@@ -280,7 +280,7 @@ footer h1 {
   margin-bottom: 0;
 }
 
-@media (width: 1440px) {
+@media (min-width: 768px) {
   .atv {
     height: 23vw;
     width: 40vw;
@@ -321,7 +321,8 @@ footer h1 {
   }
 }
 
-@media (min-width: 768px) {
+
+@media (width: 1440px) {
   .atv {
     height: 23vw;
     width: 40vw;
@@ -334,7 +335,7 @@ footer h1 {
   }
 
   .formulario {
-    width: 70%;
+    width: 35%;
   }
 
   .missao {
@@ -352,6 +353,11 @@ footer h1 {
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 34px;
   }
 
   .texto-missão {
@@ -359,5 +365,13 @@ footer h1 {
     text-align: center;
     flex-direction: column;
     align-items: center;
+  }
+
+  footer h1 {
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 50px;
   }
 }
