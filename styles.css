@@ -280,7 +280,7 @@ footer h1 {
   margin-bottom: 0;
 }
 
-@media (width: 1440px) {
+@media (min-width: 1440px) {
   .atv {
     height: 23vw;
     width: 40vw;
