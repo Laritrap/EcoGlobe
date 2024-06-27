@@ -264,11 +264,13 @@ label {
 footer {
   background-color: #1A1D22;
   text-align: center;
+  margin: 0;
+  padding: 2%;
 }
 
 footer p {
   color: white;
-  
+  margin: 5px 0 0 0;
 }
 
 @media (min-width: 768px) {
