@@ -6,7 +6,8 @@ body {
 
 .title {
     color: #03CFAA;
-    font-family: "Train One", system-ui
+    font-family: "Train One", system-ui;
+    font-weight: 400;
 }
 
 header {
