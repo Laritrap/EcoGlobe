@@ -81,14 +81,6 @@ h2 {
     text-align: center;
 }
 
-/*
-.atividades {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr;
-}
-*/
-
 .ht {
     background-image: url(./img/horta.png);
 }
@@ -115,8 +107,19 @@ h2 {
   margin: 10px;
   border-radius: 20px;
 }
-/* height: 23vw;
-width: 40vw; */
+
+@media (max-width: 1440px) {
+  .atv {
+    height: 23vw;
+    width: 40vw;
+  }
+
+  .atividades {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 .atv:hover {
   font-size: 1.4em;
