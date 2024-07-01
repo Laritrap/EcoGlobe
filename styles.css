@@ -28,17 +28,6 @@ header {
   align-items: center;
 }
 
-.menuzin:checked + label + .links {
-  display: block;
-  position: absolute;
-  top: 70%;
-  right: 40;
-  background-color: #1A1D22;
-  border-radius: 0 0 10px 10px;
-  z-index: 1;
-  padding: 10px;
-}
-
 .logo {
     width: 25%;
 }
@@ -202,6 +191,16 @@ h5 {
   }
   #check {
     display: block;
+  }
+  .menuzin:checked + label + .links {
+    display: block;
+    position: absolute;
+    top: 70%;
+    right: 0;
+    background-color: #1A1D22;
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
+    padding: 10px;
   }
 }
 
@@ -373,5 +372,15 @@ footer h1 {
 
   .title {
     font-size: 50px;
+  }
+  .menuzin:checked + label + .links {
+    display: block;
+    position: absolute;
+    top: 70%;
+    right: 20;
+    background-color: #1A1D22;
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
+    padding: 10px;
   }
 }
