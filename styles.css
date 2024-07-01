@@ -32,7 +32,7 @@ header {
   display: block;
   position: absolute;
   top: 70%;
-  right: 20;
+  right: 0;
   background-color: #1A1D22;
   border-radius: 0 0 10px 10px;
   z-index: 1;
