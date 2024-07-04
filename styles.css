@@ -285,6 +285,10 @@ footer h1 {
     width: 40vw;
   }
 
+  .header {
+    justify-items: stretch
+  }
+
   .atividades {
     display: grid;
     justify-items: center;
