@@ -1,2 +1,2 @@
 # Ecoglobe
-prototipo do ecoglobe
+Repositório do projeto do ecoglobe
